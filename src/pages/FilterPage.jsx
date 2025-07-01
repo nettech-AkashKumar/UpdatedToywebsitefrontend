@@ -7,7 +7,7 @@ import axios from "axios";
 import BASE_URL from "../Config/config.js";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Testing from "../components/HomeComponents/CardCarousal/testing.jsx";
+import Testing from "../components/HomeComponents/TestCarousal/testing.jsx";
 import CardData from "../JSONData/carddata.json";
 import CarrousallBannerFilter from "../components/HomeComponents/carouselbannerfilter/CarouselBannerFilter.jsx";
 
