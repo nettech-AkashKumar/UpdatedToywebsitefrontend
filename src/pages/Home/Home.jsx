@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PageLayout from '../../layouts/PageLayout';
 import ElevateSection from '../../components/HomeComponents/ElevateSection/ElevateSection';
-import Cardcarousal from '../../components/HomeComponents/CardCarousal/CardCarousal.jsx'
+import Cardcarousal from '../components/HomeComponents/CardCarousal/CardCarousal.jsx'
 import Knockoutoffer from '../../components/HomeComponents/Knockoutoffer/Knockoutoffer';
 import CardOffer from '../../components/HomeComponents/cardoffer/cardoffer';
 import ShopByCateg from '../../components/HomeComponents/shopbycategoryheading/ShopByCateg';
