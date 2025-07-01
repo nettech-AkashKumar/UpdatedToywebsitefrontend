@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Cart.css";
+import "../Cart/Cart.css";
 import { Link } from "react-router-dom";
 import PageLayout from "../../layouts/PageLayout";
 import CartTshirt from "../../assets/image/carttshirt.png"
