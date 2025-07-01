@@ -1,0 +1,38 @@
+.adrress-addlocation button{
+    transition: 0.5s;
+}
+
+.adrress-addlocation button:hover{
+   background-color: white !important;
+   color:#ff8272 !important;
+   border: 1px solid black;
+
+}
+.address-btn{
+    transition: 0.5s;
+}
+.address-btn:hover{
+background-color: #ff8272;
+color:white;
+   
+}
+@media (min-width:320px) and (max-width:480px){
+    .adrress-book-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:480px) and (max-width:768px){
+    .adrress-book-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .adrress-book-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    .addresbook-cardcontainer{
+        overflow: auto;
+    }
+}

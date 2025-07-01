@@ -1,0 +1,31 @@
+.name-helpsupportform{
+    transition: 0.5s;
+}
+.name-helpsupportform:hover{
+   outline: 2px solid #FFAD96ed !important;
+   border: none !important;
+   
+}
+.supporthelp-btn{
+    transition: 0.5s;
+}
+.supporthelp-btn:hover{
+   background-color: white !important;
+   color: #FFAD96ed !important;
+   border: 1px solid #FFAD96ed !important;
+}
+@media (min-width:320px) and (max-width:480px){
+    .supportandhelp-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:480px) and (max-width:768px){
+    .supportandhelp-container{
+        flex-direction: column;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .supportandhelp-container{
+        flex-direction: column;
+    }
+}

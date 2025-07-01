@@ -1,0 +1,112 @@
+{
+"cardoffer":[
+  {
+    "image": "../../public/cardofferimage/co1.png",
+    "title": "Wardrobe Upgrades",
+    "offer": "Min. 30% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co2.png",
+    "title": "Home Decor Deals",
+    "offer": "Flat 40% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co3.png",
+    "title": "Kitchen Essentials",
+    "offer": "Up to 50% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co4.png",
+    "title": "Electronics Sale",
+    "offer": "Min. 25% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co5.png",
+    "title": "Footwear Fiesta",
+    "offer": "Buy 1 Get 1",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co6.png",
+    "title": "Fashion Accessories",
+    "offer": "Up to 70% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co7.png",
+    "title": "Mobile Deals",
+    "offer": "Starting ₹4999",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co8.png",
+    "title": "Books Bonanza",
+    "offer": "Min. 20% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co9.png",
+    "title": "Fitness Gear",
+    "offer": "Up to 60% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c10.png",
+    "title": "Toys & Games",
+    "offer": "Flat 30% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c011.png",
+    "title": "Beauty Products",
+    "offer": "Up to 45% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/co12.png",
+    "title": "Winter Wear",
+    "offer": "Min. 50% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c13.png",
+    "title": "Luggage & Bags",
+    "offer": "Flat 35% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c14.png",
+    "title": "Daily Essentials",
+    "offer": "Save up to 30%",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c15.png",
+    "title": "Gourmet & Grocery",
+    "offer": "Up to 25% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c16.png",
+    "title": "Stationery Picks",
+    "offer": "Flat 20% off",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c17.png",
+    "title": "Smart Gadgets",
+    "offer": "Deals from ₹999",
+    "subtitle": "Shop Now"
+  },
+  {
+    "image": "../../public/cardofferimage/c18.png",
+    "title": "Summer Collection",
+    "offer": "Min. 40% off",
+    "subtitle": "Shop Now"
+  }
+]
+}

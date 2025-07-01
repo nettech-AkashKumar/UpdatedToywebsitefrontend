@@ -1,0 +1,107 @@
+.accndetailpersnlinfomaindiv {
+    flex: 1;
+}
+.persnlinfoheadingdiv {
+    font-family: "Poppins", sans-serif;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0;
+    margin: 23px;
+    width: 300px;
+}
+.persnlinfheading {
+   display: flex;
+}
+.accndetailformdiv {
+    margin: 20px;
+}
+.accondetallabel {
+    color: #5B5B5B;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    margin: 10px 0px;
+}
+.accouninput {
+     border:1px solid #DBDBDB;
+     padding: 5px;
+     border-radius: 5px;
+     height: 50px;
+     flex: 1;
+     padding-right: 80px;
+     outline: none;
+}
+.accouninputdate {
+    border: none;
+}
+/* Remove number input spinner */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.accouninput::placeholder {
+    margin: 30px;
+}
+.accouninputbutton {
+    color: #FF8272;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0;
+    right: 10px;
+    cursor: pointer;
+
+}
+/* Hide default radio button */
+.radioput {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #FF8272; /* Custom border */
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+/* When checked, change fill color */
+.radioput:checked::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #FF8272; /* Custom fill color */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.accoundetsavebtndiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF8272;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.accoundetsavebtn {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+.accoundetsavebtndiv:hover {
+     background-color: #ee7565;
+}

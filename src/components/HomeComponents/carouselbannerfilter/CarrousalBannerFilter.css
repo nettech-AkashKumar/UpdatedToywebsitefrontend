@@ -1,0 +1,16 @@
+.carousel-indicators-filter{
+    /* background-color: rebeccapurple; */
+    bottom: -40px;
+}
+.carousel-indicators-filter [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+   background-color: rgba(0, 0, 0, 0.534);
+   
+}
+@media (min-width:320px) and (max-width:1590px) {
+    .carousel-image-banner{
+        height: auto !important;
+    }
+}

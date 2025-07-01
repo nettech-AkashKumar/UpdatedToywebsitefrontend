@@ -1,0 +1,71 @@
+.somethingmaindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.somethingwrongcontentdiv {
+  width: 400px;
+  text-align: center;
+}
+.warningimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fef0c7;
+  width: 30px;
+  height: 30px;
+  /* text-align: center; */
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.wentwrng {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #3d3d3d;
+}
+.refreshloaddesc {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+  color: #828282;
+}
+
+.contactrefreshbtndiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+}
+.contactfdivbtn {
+  border: 1px solid #828282;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+  color: #3d3d3d;
+}
+.freshdivbtn {
+  background: #ff8272;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+@media (width:320px){
+  .contactfdivbtn {
+        padding: 10px 6px 10px 6px;
+
+  }
+  .freshdivbtn{
+        padding: 10px 6px 10px 6px;
+  }
+}

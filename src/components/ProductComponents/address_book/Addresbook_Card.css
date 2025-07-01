@@ -1,0 +1,50 @@
+.address-card {
+  background-color: #FFF1F1;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.address-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.address-header input[type="radio"] {
+  margin-right: 10px;
+  margin-top: 0; /* Aligns better vertically */
+}
+
+.address-username {
+  font-weight: bold;
+}
+
+.address-description {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.addres-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.address-edit-btn,
+.address-delete-btn {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.address-edit-btn {
+  background-color: #F9F5FF;
+  color: #FF8272;
+}
+
+.address-delete-btn {
+  background-color: black;
+  color: white;
+}

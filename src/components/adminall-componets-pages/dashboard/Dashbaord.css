@@ -1,0 +1,82 @@
+.dashboard-user-intro {
+  background-image: url(../../../assets//image/dashbord-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 40vh; */
+}
+.total-card-dashboard {
+  display: flex;
+  gap: 22px;
+}
+.card-dashbaord {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 200px;
+  height: 130px;
+  border-radius: 5px;
+  color: white;
+}
+.total-revenue-card {
+  background-image: url(../../../assets/image/dashbaordcard1-img.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.total-orders-card {
+  background: #ff8273;
+  background: linear-gradient(
+    182deg,
+    rgba(255, 130, 115, 1) 0%,
+    rgba(189, 62, 130, 1) 83%
+  );
+}
+.total-product-card {
+  background-color: #a4265e;
+}
+.total-product-card {
+  background-image: url(../../../assets//image/total-orders-dhasboard-card1.png),
+    url(../../../assets//image/total-orders-dhasboard-card2.png);
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 60px, 80px;
+}
+
+.total-customers-card {
+  background: #ff8373;
+  background: linear-gradient(
+    223deg,
+    rgba(255, 131, 115, 1) 0%,
+    rgba(27, 13, 12, 1) 83%
+  );
+}
+.dashboardmain-conatiner {
+  overflow: auto;
+  height: 600px;
+}
+.dashboardmain-conatiner::-webkit-scrollbar {
+  display: none;
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+  .dashboardmain-conatiner {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .dashbaord-right-section {
+    width: 100% !important;
+  }
+  .total-card-dashboard {
+    justify-content: space-between;
+  }
+}
+@media (min-width: 320px) and (max-width: 631px) {
+  .total-card-dashboard {
+    display: grid !important;
+    grid-template-columns: repeat(2, 0fr);
+  }
+}
+
+

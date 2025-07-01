@@ -1,0 +1,229 @@
+
+.submitmodal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.submitmodal-content::-webkit-scrollbar {
+    display: none;
+}
+
+.submitmodal-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    max-height: 90vh;
+    overflow-y: auto;
+    max-width: 600px;
+}
+.submitclose-btn {
+    /* position: absolute; */
+    top: 12px;
+    right: 16px;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+    color: #444;
+    font-weight: 600;
+    text-align: end;
+    width: 100%;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #344054;
+  font-family: "Inter", serif;
+  line-height: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  outline: none;
+  background-color: var(--background);
+  color: var(--label-color);
+ 
+
+  }
+
+  .form-input::placeholder{
+    color: var(--label-color);
+    background-color: var(--background);
+  }
+
+.form-group input:focus {
+  border: 1px solid #ff8272;
+}
+.form-group textarea:focus {
+  border: 1px solid #ff8272;
+}
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder 
+{
+  color: var(--label-color);
+}
+
+.excellent {
+  font-family: "Inter", serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #282828;
+  margin-left: 80px;
+}
+/* progress bar */
+
+/* Styles for the label */
+.goodprogresslabel {
+  font-family: "Inter", serif;
+  color: #344054;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+  padding: 8px 0px;
+}
+
+/* Wrapper for the progress bar */
+.progress-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Range slider */
+.progress-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: transparent;
+  padding: 0;
+  border-radius: 15px;
+  position: relative;
+}
+
+/* Dynamic slider fill with gradient */
+.progress-slider::-webkit-slider-runnable-track {
+  background: linear-gradient(
+    to right,
+    #ff8272 var(--progress),
+    #eaecf0 var(--progress)
+  );
+  height: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Slider thumb (circle) */
+.progress-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #ff8272;
+  cursor: pointer;
+  margin-top: -2.5px;
+}
+
+.progress-slider:focus {
+  outline: none;
+}
+
+/* Dynamic moving circle */
+.progress-indicator {
+  position: absolute;
+  top: 25px;
+  background-color: #ffffff;
+  padding: 2px 5px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  color: #344054;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* upload */
+.upload {
+  padding: 8px 0px;
+  color: #191d23 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: "Manrope", serif !important;
+}
+
+.tickme {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.fiveprogress span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fiveprogress span p {
+  font-family: "Inter", serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+.addtocartbtn button {
+  transition: 0.5s;
+}
+.addtocartbtn button:hover {
+  background-color: grey !important;
+  color: white !important;
+}
+
+.fiveprogress span .progress {
+  margin-bottom: 0px;
+}
+.leavereviewbtn {
+  transition: 0.5s;
+}
+.leavereviewbtn:hover {
+  background-color: grey !important;
+}
+.submitbtn {
+  transition: 0.5s;
+}
+.submitbtn:hover {
+  background-color: grey !important;
+}
+
+
+
+

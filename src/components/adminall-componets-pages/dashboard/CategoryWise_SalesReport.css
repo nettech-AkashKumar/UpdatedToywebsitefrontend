@@ -1,0 +1,38 @@
+.categoreswise-heading th, .categoreswise-data td{
+    padding: 8px;
+    border: 1px solid grey;
+    text-align: center;
+}
+/* .categoreswise-sales-report-table{
+    height: 280px;
+    overflow-y: auto;
+}
+.categoreswise-sales-report-table::-webkit-scrollbar{
+    display: none;
+} */
+
+
+/* dark-theme and light-theme? */
+.dark-theme{
+   --categorieswise-salesreport-container-bg-color: black;
+    --categorieswise-salesreport-container-color: white;
+   --category-wise-sale-report-admin-txt-color: white;
+   --categoreswise-heading-th-categoreswise-data-td-border: 1px solid white;
+}
+.light-theme{
+ --categorieswise-salesreport-container-bg-color: white;
+  --categorieswise-salesreport-container-color: black;
+  --category-wise-sale-report-admin-txt-color: black;
+   --categoreswise-heading-th-categoreswise-data-td-border: 1px solid grey;   
+}
+.categorieswise-salesreport-container{
+    background-color: var(--categorieswise-salesreport-container-bg-color) !important;
+    color: var(--categorieswise-salesreport-container-color);
+    
+}
+.category-wise-sale-report-admin-txt{
+    color: var(--category-wise-sale-report-admin-txt-color);
+}
+.categoreswise-heading th, .categoreswise-data td{
+    border: var(--categoreswise-heading-th-categoreswise-data-td-border);
+}

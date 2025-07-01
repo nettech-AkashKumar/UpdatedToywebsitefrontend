@@ -1,0 +1,25 @@
+.analytics-container{
+    background-color: white;
+    
+
+}
+
+/* dark-theme and light-theme?? */
+.dark-theme{
+  --analytics-container-bg-color: black;
+  --analytics-container-color: white;
+  --analytics-report-admin-color: white;
+}
+.light-theme{
+   --analytics-container-bg-color: white;
+   --analytics-container-color:  black;
+    --analytics-report-admin-color: black;
+}
+.analytics-container{
+    background-color: var(--analytics-container-bg-color);
+    color: var(--analytics-container-color);
+    
+}
+.analytics-report-admin{
+    color: var(--analytics-report-admin-color);
+}

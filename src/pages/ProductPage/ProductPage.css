@@ -1,0 +1,78 @@
+.productfilpage {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+.filterproductssession {
+  max-height: 1840px;
+  width: 17%;
+  border: 1px solid rgb(104, 104, 104);
+}
+.rightsideallcard {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  flex: 1;
+  margin: 20px;
+  bottom: 0px;
+  margin-left: 30px;
+  gap: 25px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.rightsideallcard::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 1787px) {
+  .productfilpage {
+    flex-direction: column;
+  }
+  .productheromainsection {
+    height: 40px;
+  }
+  .productheromainsection {
+    padding-left: 0;
+  }
+
+  .mentopwear {
+    display: none;
+  }
+  .filtermaindiv {
+    display: none;
+  }
+  .rightsideallcard {
+    margin: 0;
+  }
+  .rightsideallcard {
+    display: grid;
+    grid-template-columns: repeat(auto, 0fr);
+    overflow: auto;
+  }
+  .rightsideallcard::-webkit-scrollbar {
+    display: none;
+  }
+  .filterproductssession {
+    display: none;
+  }
+  .mobile-view-prodctfilter {
+    display: block !important;
+  }
+  .mobile-view-prodctfilter {
+    width: 100%;
+    overflow: hidden;
+    display: flex !important;
+    gap: 10px;
+  }
+  .mobile-view-prodctfilter select {
+    width: 100%;
+    background-color: #f3f3f3;
+    overflow-x: auto;
+    padding: 5px;
+  }
+  /* .mobile-view-prodctfilter select option{
+    width: 130px;
+    height: 50px;
+    display: block;
+  } */
+}

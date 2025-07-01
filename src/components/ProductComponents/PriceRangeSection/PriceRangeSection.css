@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.rangepcikerdiv {
+    width: 310px;
+    height: 150px;
+}
+.rangepickercontentdiv {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+} 
+.pricerangefilter {
+    width: 246px;
+    height: 62px;
+}
+.pricefilterheading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #3D3D3D;
+}
+.pricefilter {
+    display: flex;
+    justify-content: space-between;
+    width: 246px;
+    height: 20px;
+}
+
+.slider {
+    width: 246px;
+    height: 4px;
+    background-color: #ffffffce !important;
+    color: #434343;
+    margin: 20px 0px;
+    position: relative;
+}
+.slider .track {
+  top: 0;
+  bottom: 0;
+  background: #E0E0E0; /* default background */
+}
+.slider .track-1 {
+  background: #434343; /* filled area between thumbs */
+}
+
+.slider .thumb {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    color: white;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #434343;
+    position: relative;
+    top: -4px;
+}
+
+
+
+

@@ -1,0 +1,184 @@
+.deliverydetailsection {
+   width: 70%; 
+   /* background-color: red; */
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 5px;
+   padding: 25px;
+}
+.uselocationdetaildiv {
+    width: 300px;
+    background-color: #FF8272;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.usemyloco {
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 150%;
+     letter-spacing: 0;
+     color: #FFFFFF;
+}
+.deheaading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #3D3D3D;
+    margin: 20px 0px;
+}
+ .saveandcontinuediv {
+    background-color: #FF8272;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     cursor: pointer;
+}
+.svepay {
+    color: #FFFFFF;
+}
+.saveandcontinuediv:hover {
+  background-color: #e66250;
+}
+.cancelbtndiv {
+    border: 1px solid #FF8272;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #FF8272;
+    width: 50%;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cancelbtndiv:hover {
+    background-color: #ccc;
+}
+@media (min-width:320px)and (max-width:375px){
+    .saveandcontinuediv {
+      
+      padding: 4px;
+       
+    }
+}
+@media (min-width:320px) and (max-width: 480px){
+    .deliverydetailscont {
+        flex-direction: column;
+        padding: 0 !important;
+
+    }
+    .deliverydetailsection{
+        width: 100%;
+    }
+    .uselocationdetaildiv{
+        width: 100%;
+    }
+    .accouninput{
+        outline: none;
+        padding-right: 0;
+        border: 1px solid #d0c8c8;
+        padding: 7px 10px;
+    }
+    .inputfirstdeliver{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .inputfirstdeliver-pincodediv{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .selectdelivery-city-state{
+        gap: 17px !important;
+    }
+    .saveandcontinuediv {
+      
+        font-size: 10px;
+       
+    }
+    .cancelbtndiv{
+        font-size: 10px;
+    }
+}
+@media (min-width:480px) and (max-width: 768px){
+    .deliverydetailscont {
+        flex-direction: column;
+        padding: 0 !important;
+
+    }
+    .deliverydetailsection{
+        width: 100%;
+    }
+    .uselocationdetaildiv{
+        width: 100%;
+    }
+    .accouninput{
+        padding-right: 0;
+    }
+    .inputfirstdeliver{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .inputfirstdeliver-pincodediv{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .selectdelivery-city-state{
+        gap: 17px !important;
+    }
+   
+}
+@media (min-width:768px) and (max-width: 1024px){
+    .deliverydetailscont {
+        flex-direction: column;
+        padding: 0 !important;
+
+    }
+    .deliverydetailsection{
+        width: 100%;
+    }
+    .uselocationdetaildiv{
+        width: 100%;
+    }
+    .accouninput{
+        padding-right: 0;
+    }
+    .inputfirstdeliver{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .inputfirstdeliver-pincodediv{
+        display: flex !important;
+        flex-direction: column;
+    }
+    .selectdelivery-city-state{
+        gap: 17px !important;
+    }
+   
+}
+
+
+
+.pincd::-webkit-outer-spin-button,
+.pincd::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

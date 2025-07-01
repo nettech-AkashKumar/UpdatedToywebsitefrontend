@@ -1,0 +1,112 @@
+.sidebar-userprofile{
+    /* background-color: red; */
+    width: 250px;
+    height: 500px;
+}
+.sidebar-userprofile ul {
+    padding: 0;
+}
+.sidebar-userprofile ul li{
+    padding: 12px 0;
+}
+.sidebar-userprofile ul li a{
+    text-decoration: none;
+    color:#3D3D3D;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+.sidebar-userprofile ul li a:hover{
+    background-color: #FFEEEB;
+    color: #FF8272 !important;
+    
+}
+.sidebar-userprofile ul li .active {
+  background-color: #FFEEEB !important;
+  color: #FF8272 !important;
+}
+@media (min-width:320px) and (max-width:480px){
+  
+    .sidebar-userprofile {
+        overflow: hidden;
+         width: 100%;
+        height: 50px;
+    }
+      .sidebar-ul{
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+    }
+    .sidebar-ul::-webkit-scrollbar{
+        display: none;
+    }
+  
+    .sidebar-userprofile ul li a{
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+          display: block;
+        width: 130px;
+        
+    }
+    
+}
+@media (min-width:480px) and (max-width:768px){
+  
+    .sidebar-userprofile {
+        overflow: hidden;
+         width: 100%;
+        height: 50px;
+    }
+      .sidebar-ul{
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+    }
+    .sidebar-ul::-webkit-scrollbar{
+        display: none;
+    }
+  
+    .sidebar-userprofile ul li a{
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+          display: block;
+        width: 130px;
+        
+    }
+    
+}
+@media (min-width:768px) and (max-width:1024px){
+  
+    .sidebar-userprofile {
+        overflow: hidden;
+         width: 100%;
+        height: 50px;
+    }
+      .sidebar-ul{
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+    }
+    .sidebar-ul::-webkit-scrollbar{
+        display: none;
+    }
+  
+    .sidebar-userprofile ul li a{
+        font-size: 14px;
+        padding-left: 0;
+        padding-right: 0;
+          display: block;
+        width: 130px;
+        
+    }
+    
+}

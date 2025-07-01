@@ -1,0 +1,222 @@
+.footer-content1 {
+  width: 363px;
+}
+/* .footer-content2{
+    width: 250px;
+}
+.footer-content3{
+    width: 250px;
+}
+.footer-content4{
+    width: 300px;
+} */
+.footer-content2 ul li a {
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-content2 ul li a:hover {
+  color: #ffad96;
+}
+.footer-content3 ul li a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: black;
+}
+.footer-content3 ul li a:hover {
+  color: #ffad96;
+}
+.footer-logo img {
+  width: 160px;
+}
+.footersubscribe-btn {
+  transition: 0.5s;
+}
+.footer-email-subscriber-input:hover {
+  outline: 2px solid #ff6338 !important;
+}
+.footersubscribe-btn:hover {
+  background-color: #ffad96;
+  color: white !important;
+}
+.footersocial-icon:hover {
+  transition: 0.5s;
+}
+.footersocial-icon:hover {
+  color: #ff6338 !important;
+}
+.footer-bottom-right {
+  transition: 0.5s;
+}
+.footer-bottom-right a:hover {
+  color: #ff6338 !important;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-content1 {
+    width: 293px;
+  }
+  .footer-hedline-txt {
+    font-size: 15px !important;
+  }
+  .footer-logo img {
+    width: 45%;
+  }
+  .footer-content-left-sidemain {
+    flex-direction: column-reverse;
+    gap: 10px !important;
+  }
+  .stayupdate-txt {
+    padding-left: 0;
+  }
+  .stayupdate-txt li {
+    font-size: 16px !important;
+  }
+  .footer-subscriber-section {
+    padding-left: 0;
+  }
+  .footer-socialfollow {
+    padding-left: 0;
+  }
+  .footer-subscriberbtn{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  }
+  .followus-txt{
+   text-align: center;
+  }
+  .footer-social-scetion{
+   justify-content: center;
+  }
+   .footer-content2 ul{
+   padding-left: 0;
+  }
+  .footer-content3 ul{
+   padding-left: 0;
+  }
+  .footercontent23{
+    justify-content: center;
+    gap: 55px !important;
+  }
+  .product-txt, .resource-txt{
+     font-size: 16px !important;
+  }
+  .bottom-footer{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+@media (min-width: 480px) and (max-width: 767px){
+ .footer-container {
+    flex-direction: column;
+  }
+  .footer-content1 {
+    width: 293px;
+  }
+  .footer-hedline-txt {
+    font-size: 15px !important;
+  }
+  .footer-logo img {
+    width: 45%;
+  }
+  .footer-content-left-sidemain {
+    flex-direction: column-reverse;
+    gap: 10px !important;
+  }
+  .stayupdate-txt {
+    padding-left: 0;
+  }
+  .stayupdate-txt li {
+    font-size: 16px !important;
+  }
+  .footer-subscriber-section {
+    padding-left: 0;
+  }
+  .footer-socialfollow {
+    padding-left: 0;
+  }
+  .footer-subscriberbtn{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+  }
+  .followus-txt{
+   text-align: center;
+  }
+  .footer-social-scetion{
+   justify-content: center;
+  }
+   .footer-content2 ul{
+   padding-left: 0;
+  }
+  .footer-content3 ul{
+   padding-left: 0;
+  }
+  .footercontent23{
+    justify-content: center;
+    gap: 150px !important;
+  }
+  .product-txt, .resource-txt{
+     font-size: 16px !important;
+  }
+  .bottom-footer{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 1024px){
+     .footer-container {
+      flex-direction: column;
+     }
+     .footer-content1 {
+          width: 698px;
+     }
+     .footercontent23{
+      gap: 80px !important;
+     }
+     .footer-content-left-sidemain{
+      gap: 97px !important;
+     }
+     .footer-content2 ul{
+      padding-left: 0;
+     }
+}
+@media (width: 1024px){
+       .footercontent23 {
+        gap: 136px !important;
+    }
+        .footer-content-left-sidemain {
+        gap: 137px !important;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    .footercontent23 {
+    gap: 44px !important;
+  }
+  .footer-content-left-sidemain {
+    gap: 93px !important;
+  }
+  .footer-email-subscriber-input{
+    width: 100%;
+  }
+  .footer-subscriberbtn{
+    display: flex;
+    gap: 10px;
+  }
+ 
+}
+@media (min-width:1441px) and (max-width:1639px){
+  .footer-email-subscriber-input{
+    width: 100%;
+  }
+  .footer-subscriberbtn{
+    display: flex;
+    gap: 10px;
+  }
+}

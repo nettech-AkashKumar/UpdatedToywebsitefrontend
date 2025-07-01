@@ -1,0 +1,23 @@
+.mainlayout {
+    
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .layouts-screen-padding {
+        padding: 0px 15px;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px){
+    .layouts-screen-padding {
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .layouts-screen-padding {
+        padding: 0px 35px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+    .layouts-screen-padding {
+        padding: 0px 20px;
+    }
+}

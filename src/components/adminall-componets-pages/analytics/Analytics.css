@@ -1,0 +1,23 @@
+.analytics-conatainer{
+    overflow: hidden;
+}
+.analytics{
+    overflow-y: auto;
+    height: calc(100vh - 220px);
+}
+
+/* dark-theme and light-theme?? */
+.dark-theme{
+  --analytics-conatainer-bg-color: black;
+  --analytics-data-admin-color: white;
+}
+.light-theme{
+    --analytics-conatainer-bg-color: white;
+    --analytics-data-admin-color: #3D3D3D;
+}
+.analytics-conatainer{
+    background-color: var(--analytics-conatainer-bg-color) !important;
+}
+.analytics-data-admin h1{
+    color: var(--analytics-data-admin-color) !important;
+}

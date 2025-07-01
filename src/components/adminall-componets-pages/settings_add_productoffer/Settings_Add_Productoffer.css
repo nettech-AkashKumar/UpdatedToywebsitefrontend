@@ -1,0 +1,26 @@
+
+.add-offer button{
+    transition: 0.5s;
+}
+.add-offer button:hover{
+    background-color: white !important;
+    color: #FF8272 !important;
+    border: 1px solid #FF8272;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:  white;
+  color: black;
+  border: 1px solid #737373;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* .custom-file-upload:hover {
+  background-color: #0056b3;
+} */
+
+

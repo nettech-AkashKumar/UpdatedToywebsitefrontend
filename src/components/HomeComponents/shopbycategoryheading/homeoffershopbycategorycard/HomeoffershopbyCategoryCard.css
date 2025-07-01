@@ -1,0 +1,85 @@
+.homeoffer-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.homeoffer-modal-content {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.homeoffer-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.homeoffer-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.homeoffer-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.homeoffer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.homeoffer-label {
+  font-size: 14px;
+  color: #333;
+}
+
+.homeoffer-input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.homeoffer-submit {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #ff7f7f;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.homeoffer-submit:hover {
+  background-color: #ff5f5f;
+}
+
+.homeoffer-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}

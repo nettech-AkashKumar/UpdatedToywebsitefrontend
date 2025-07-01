@@ -1,0 +1,9 @@
+@media (min-width:1025px) and (max-width:1268px){
+    .deliverydetailscont {
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .deliverydetailsection{
+        width: 100%;
+    }
+}

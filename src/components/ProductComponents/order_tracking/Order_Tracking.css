@@ -1,0 +1,99 @@
+.track-orderbtn{
+    transition: 0.5s;
+}
+.track-orderbtn:hover{
+    background-color: white !important;
+    border: 1px solid #FF8272;
+    color: #FF8272 !important;
+}
+.contact-usbtn-ot{
+     transition: 0.5s;
+}
+.contact-usbtn-ot:hover{
+    background-color: white !important;
+    border: 1px solid #FF8272;
+    color: #FF8272 !important;
+}
+@media (min-width:320px) and (max-width:480px){
+    .ordertracking-container{
+        flex-direction: column;
+    }
+    .ordertracking-div{
+        display: none;
+    }
+    .mobileview-ordertarcking{
+        display: block !important;
+    }
+    .bottom-ordertarcking-content{
+        flex-direction: column-reverse;
+    }
+    .mapifrane-container{
+        width: 100% !important;
+    }
+    .mapconatcus-container{
+        width: 100% !important;
+    }
+    .bottom-ordertarcking-content{
+        padding-top: 30px !important;
+        padding-bottom: 0 !important;
+    }
+    .ordertracking-border{
+        border:none !important;
+    }
+}
+@media (min-width:480px) and (max-width:768px){
+    .ordertracking-container{
+        flex-direction: column;
+    }
+    .ordertracking-div{
+        display: none;
+    }
+    .mobileview-ordertarcking{
+        display: block !important;
+    }
+   
+    .bottom-ordertarcking-content{
+        flex-direction: column-reverse;
+    }
+    .mapifrane-container{
+        width: 100% !important;
+    }
+    .mapconatcus-container{
+        width: 100% !important;
+    }
+    .bottom-ordertarcking-content{
+        padding-top: 30px !important;
+        padding-bottom: 0 !important;
+    }
+    .ordertracking-border{
+        border:none !important;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .ordertracking-container{
+        flex-direction: column;
+    }
+    .ordertracking-div{
+        display: none;
+    }
+    .mobileview-ordertarcking{
+        display: block !important;
+    }
+   
+    .bottom-ordertarcking-content{
+        flex-direction: column-reverse;
+    }
+    .mapifrane-container{
+        width: 100% !important;
+    }
+    .mapconatcus-container{
+        width: 100% !important;
+    }
+    .bottom-ordertarcking-content{
+        padding-top: 30px !important;
+        padding-bottom: 0 !important;
+    }
+    .ordertracking-border{
+        border:none !important;
+    }
+}

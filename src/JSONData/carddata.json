@@ -1,0 +1,261 @@
+{
+    
+    "cardData": [
+      {
+        "image": "../../public/4.png",
+        "text": "Min. 30% off",
+        "subtext": "Wordrobe Upghrades",
+        "category":"women",
+         "background": "#f9f9f9",
+          "link": "women/skirts-palazzos"
+      },
+        {
+        "image": "../../public/2.png",
+        "text": "Min. 30% off",
+        "subtext": "Wordrobe Upghrades",
+        "category":"",
+         "background": "#f9f9f9",
+         "link": "women/jewellery/fine-jewellery"
+      },
+       {
+    "image": "../../public/3.png",
+    "text": "Min. 40% off",
+    "subtext": "Stunning Pair",
+    "category":"women",
+     "background": "#f9f9f9",
+     "link":"women/heels"
+  },
+   {
+    "image": "../../public/5.png",
+    "text": "Min. 40% off",
+    "subtext": "Eye-Catching Bag",
+    "category":"",
+     "background": "#f9f9f9",
+     "link": "women/handbags-wallets"
+  },
+      {
+        "image": "https://images.pexels.com/photos/6633592/pexels-photo-6633592.jpeg?cs=srgb&dl=pexels-cup-of-couple-6633592.jpg&fm=jpg",
+        "text": "Min. 30% off",
+        "subtext": "Wordrobe Upghrades",
+        "category":"men",
+        "background": "#f9f9f9",
+        "link":"men/wallets"
+      },
+        {
+    "image": "../../public/1.png",
+    "text": "Min. 70% off",
+    "subtext": "Big style for Little one",
+    "category":"kids",
+     "background": "#f9f9f9",
+     "link":"kids/girls/dresses"
+  },
+      {
+        "image": "../../public/em1.jpg",
+        "text": "Min. 50% off",
+        "subtext": "Minimal Pieces",
+        "category":"men",
+         "background": "#f9f9f9",
+         "link":"men/luggages-trolleys"
+      },
+        {
+    "image": "../../public/em2.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Eye-Catching Bag",
+    "category":"men",
+     "background": "#f9f9f9",
+     "link":"men/luggages-trolleys"
+  },
+  {
+    "image": "../../public/em3.jpg",
+    "text": "Min. 30% off",
+    "subtext": "Stunning Pair",
+    "category":"men",
+     "background": "#f9f9f9",
+     "link":"men/luggages-trolleys"
+  },
+  {
+    "image": "../../public/em4.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Stunning Pair",
+    "category":"men",
+     "background": "#f9f9f9",
+     "link":"men/luggages-trolleys"
+  },
+  {
+    "image": "../../public/em5.jpg",
+    "text": "Min. 70% off",
+    "subtext": "Big style for Little one",
+    "category":"men",
+     "background": "#f9f9f9",
+     "link":"men/luggages-trolleys"
+  },
+      {
+        "image": "../../public/ew1.jpg",
+        "text": "Min. 50% off",
+        "subtext": "Minimal Pieces",
+        "category":"women",
+         "background": "#f9f9f9",
+         "link":"women/handbags-wallets"
+      },
+        {
+    "image": "../../public/ew2.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Eye-Catching Bag",
+    "category":"women",
+     "background": "#f9f9f9",
+      "link":"women/handbags-wallets"
+  },
+  {
+    "image": "../../public/ew3.jpg",
+    "text": "Min. 30% off",
+    "subtext": "Stunning Pair",
+    "category":"women",
+     "background": "#f9f9f9",
+     "link":"women/handbags-wallets"
+  },
+
+  {
+    "image": "../../public/ew4.jpg",
+    "text": "Min. 70% off",
+    "subtext": "Big style for Little one",
+    "category":"women",
+     "background": "#f9f9f9",
+     "link":"women/handbags-wallets"
+  },
+  {
+        "image": "../../public/ek1.jpg",
+        "text": "Min. 30% off",
+        "subtext": "Wordrobe Upghrades",
+        "category":"kids",
+         "background": "#f9f9f9",
+         "link":"kids/girls/skirts-shorts"
+      },
+      {
+        "image": "../../public/ek2.jpg",
+        "text": "Min. 50% off",
+        "subtext": "Minimal Pieces",
+        "category":"kids",
+         "background": "#f9f9f9",
+         "link":"kids/toys-games/soft-toys"
+      },
+        {
+    "image": "../../public/ek3.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Eye-Catching Bag",
+    "category":"kids",
+     "background": "#f9f9f9",
+     "link":"accessories/bags-backpacks"
+  },
+  {
+    "image": "../../public/ek4.jpg",
+    "text": "Min. 30% off",
+    "subtext": "Stunning Pair",
+    "category":"kids",
+     "background": "#f9f9f9",
+     "link":"toys-games/activity-toys"
+  },
+  {
+    "image": "../../public/ek5.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Stunning Pair",
+    "category":"kids",
+     "background": "#f9f9f9",
+     "link":"kids/accessories/jewellery-hair-accessory"
+  },
+  {
+        "image": "../../public/eb1.jpg",
+        "text": "Min. 30% off",
+        "subtext": "Wordrobe Upghrades",
+        "category":"beauty",
+         "background": "#f9f9f9",
+         "link":"beauty/gifting/beauty-travel-kits"
+      },
+      {
+        "image": "../../public/eb2.jpg",
+        "text": "Min. 50% off",
+        "subtext": "Minimal Pieces",
+        "category":"beauty",
+         "background": "#f9f9f9",
+           "link":"beauty/gifting/beauty-travel-kits"
+      },
+        {
+    "image": "../../public/eb3.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Eye-Catching Bag",
+    "category":"beauty",
+     "background": "#f9f9f9",
+       "link":"beauty/gifting/beauty-travel-kits"
+  },
+  {
+    "image": "../../public/eb4.jpg",
+    "text": "Min. 30% off",
+    "subtext": "Stunning Pair",
+    "category":"beauty",
+     "background": "#f9f9f9",
+     "link":"beauty/hair-care/hair-oil"
+  },
+  {
+    "image": "../../public/eb5.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Stunning Pair",
+    "category":"beauty",
+     "background": "#f9f9f9",
+     "link":"beauty/lipstick"
+  },
+  {
+    "image": "../../public/eb3.jpg",
+    "text": "Min. 70% off",
+    "subtext": "Big style for Little one",
+    "category":"beauty",
+     "background": "#f9f9f9",
+     "link":"kids/personal-care"
+  },
+  {
+        "image": "../../public/ee1.jpg",
+        "text": "Min. 30% off",
+        "subtext": "Wordrobe Upghrades",
+        "category":"electronics",
+         "background": "#f9f9f9",
+         "link":"electronics/tablets"
+      },
+      {
+        "image": "../../public/ee4.jpg",
+        "text": "Min. 50% off",
+        "subtext": "Minimal Pieces",
+        "category":"electronics",
+         "background": "#f9f9f9",
+         "link":"electronics/tablets"
+      },
+        {
+    "image": "../../public/ee2.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Eye-Catching Bag",
+    "category":"electronics",
+     "background": "#f9f9f9",
+     "link":"electronics/applin"
+  },
+  {
+    "image": "../../public/ee3.jpg",
+    "text": "Min. 30% off",
+    "subtext": "Stunning Pair",
+    "category":"electronics",
+     "background": "#f9f9f9",
+     "link":"electronics/headsets"
+  },
+  {
+    "image": "../../public/ee4.jpg",
+    "text": "Min. 40% off",
+    "subtext": "Stunning Pair",
+    "category":"electronics",
+     "background": "#f9f9f9"
+  },
+  {
+    "image": "../../public/ee5.jpg",
+    "text": "Min. 70% off",
+    "subtext": "Big style for Little one",
+    "category":"electronics",
+     "background": "#f9f9f9",
+     "link":"electronics/smart-tvs"
+  }
+]
+}

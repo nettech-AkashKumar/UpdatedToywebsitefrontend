@@ -1,0 +1,41 @@
+.sales-container{
+    overflow: hidden;
+}
+.sales-table{
+    overflow-y: auto;
+    height: calc(100vh - 250px);
+}
+.sales-table::-webkit-scrollbar{
+    display: none;
+}
+
+.sales-head th, .sales-data td{
+  padding: 8px;
+  border: 1px solid grey;
+  color: #3D3D3D;
+  font-family: "Poppins", sans-serif;
+}
+
+/* dark-theme and light-theme?? */
+.dark-theme{
+  --sales-container-bg-color: black; 
+  --total-sales-txt-admin-color: white; 
+   --sales-head-th-sales-data-td-border:1px solid white; 
+   --sales-head-th-sales-data-td-color:white; 
+}
+.light-theme{
+  --sales-container-bg-color: white;
+  --total-sales-txt-admin-color: black;
+  --sales-head-th-sales-data-td-border:1px solid grey; 
+  --sales-head-th-sales-data-td-color: black;  
+}
+.sales-container{
+    background-color: var( --sales-container-bg-color) !important;
+}
+.total-sales-txt-admin{
+    color: var(--total-sales-txt-admin-color) !important;
+}
+.sales-head th, .sales-data td{
+    border: var(--sales-head-th-sales-data-td-border);
+    color: var(--sales-head-th-sales-data-td-color);
+}

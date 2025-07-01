@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.cardofferdiv {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+.card {
+  width: 250px;
+  height: 360px;
+  border-radius: 12px;
+  background: #ffe7e0;
+  margin: auto;
+  border: 0;
+}
+.cardimagediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 240px; */
+}
+.cardimageoffer {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.cardimagetext {
+  /* width: 200px; */
+  flex: 1;
+  margin: 10px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtitle {
+  /* width: 115px; */
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  margin: 0px;
+}
+.cardcontentoffer {
+  height: 35px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #3a3a3a;
+  margin: 0px;
+}
+.cardcontentbtn {
+  font-family: "Inter", sans-serif;
+  color: #3a3a3a;
+  width: 69px;
+  height: 21px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0;
+  margin: 0px;
+  transition: 0.5s;
+}
+.cardcontentbtn:hover{
+  color: rgb(255, 130, 114);
+}
+.pagination-btn {
+  padding: 6px 14px;
+  margin: 0 5px;
+  background-color: salmon;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pagination-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (min-width:320px) and (max-width:480px){
+  .cardofferdiv {
+     grid-template-columns: repeat(2, 0fr);
+  }
+  .card {
+    width: 138px;
+    height: 350px;
+  }
+  .cardtitle {
+    font-size: 11px;
+  }
+  .cardcontentoffer {
+    font-size: 14px;
+  }
+}
+@media (width:390px){
+
+  .card {
+    width: 172px !important;
+   
+  
+}
+}
+
+@media (min-width:370px) and (max-width:400px){
+  .card {
+    width: 165px;
+    
+  }
+  
+}
+@media (min-width:425px) and (max-width:480px){
+  .card {
+    width: 190px;
+    height: 350px;
+    
+  }
+  
+}
+@media (width:480px){
+  .card {
+    width: 212px;
+    
+  }
+  
+}
+
+@media (min-width:480px) and (max-width:768px){
+  .cardofferdiv {
+     grid-template-columns: repeat(3, 0fr);
+  }
+  .card {
+    width: 138px;
+    height: 261px;
+  }
+  .cardtitle {
+    font-size: 11px;
+  }
+  .cardcontentoffer {
+    font-size: 14px;
+  }
+}
+@media (min-width:500px) and (max-width:768px){
+ 
+  .card {
+    width: 143px;
+
+  }
+
+}
+@media (min-width:570px) and (max-width:768px){
+ 
+  .card {
+    width: 170px;
+
+  }
+
+}
+@media (min-width:660px) and (max-width:768px){
+ 
+  .card {
+    width: 200px;
+
+  }
+
+}
+@media (min-width:740px) and (max-width:768px){
+ 
+  .card {
+    width: 225px;
+    height: 330px;
+
+  }
+
+}
+@media (min-width:769px) and (max-width:1024px){
+ 
+   /* .cardofferdiv {
+     grid-template-columns: repeat(4, 0fr);
+  }
+  .card {
+    width: 164px;
+    height: 270px;
+  } */
+  .cardtitle {
+    font-size: 14px;
+  }
+  .cardcontentoffer {
+    font-size: 16px;
+  }
+     .cardofferdiv {
+     overflow-x: auto;
+     grid-template-columns: repeat(5, 0fr);
+  }
+   .cardofferdiv::-webkit-scrollbar{
+    display: none;
+   }
+  .card {
+          width: 250px;
+    
+  }
+
+}
+@media (min-width:769px) and (max-width:1024px){
+ 
+
+
+}
+/* @media (min-width:1000px) and (max-width:1024px){
+ 
+ 
+  .card {
+    width: 179px;
+    height: 280px;
+    
+  }
+
+} */
+
+@media (min-width: 1025px) and (max-width:1440px){
+   .cardofferdiv{
+    overflow-x: auto;
+  }
+  .cardofferdiv::-webkit-scrollbar{
+    display: none;
+  }
+}
+@media (min-width: 1440px) and (max-width:1716px){
+   .cardofferdiv{
+    overflow-x: auto;
+  }
+  .cardofferdiv::-webkit-scrollbar{
+    display: none;
+  }
+}
+
