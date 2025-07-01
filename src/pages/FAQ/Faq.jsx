@@ -1,6 +1,6 @@
 import React from "react";
 import "./faq.css";
-import SubscribeImg  from "../../assets/Image/Subscribe.png";
+import SubscribeImg  from "../../assets/Image/onesubscribe.png";
 import Accordian from "../../Components/FAQAccoridan/Accordian";
 import { Link } from "react-router-dom";
 import PageLayout from "../../layouts/PageLayout";

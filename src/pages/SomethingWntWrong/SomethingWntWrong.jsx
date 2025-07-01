@@ -1,7 +1,7 @@
 import React from 'react'
 import './SomethingWntWrong.css'
 import PageLayout from '../../layouts/PageLayout'
-import warningImg  from '../../assets/image/Warning.png'
+import warningImg  from '../../assets/image/warning.png'
 import { Link } from 'react-router'
 
 const SomethingWntWrong = () => {
