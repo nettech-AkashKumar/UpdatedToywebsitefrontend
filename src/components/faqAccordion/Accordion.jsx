@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import {questions} from "../FAQAccoridan/api"
+import {questions} from "./api.jsx"
 import "./accordian.css";
-import Myaccordian from "../FAQAccoridan/Myaccordian";
+import Myaccordian from "./MyAccordion.jsx";
 
 const Accordian = () => {
   const [data, setData] = useState(questions);

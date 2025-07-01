@@ -1,7 +1,7 @@
 import React from "react";
 import "./faq.css";
 import SubscribeImg  from "../../assets/Image/onesubscribe.png";
-import Accordian from "../../Components/FAQAccoridan/Accordian";
+import Accordian from "../../components/faqAccordion/Accordion";
 import { Link } from "react-router-dom";
 import PageLayout from "../../layouts/PageLayout";
 const Faq = () => {
