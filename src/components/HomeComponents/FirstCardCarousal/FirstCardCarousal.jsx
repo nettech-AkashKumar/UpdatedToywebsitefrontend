@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import "./cardcarousal.css";
-
-const Cardcarousal = ({ data = [] }) => {
+import React from 'react'
+import './FirstCardCarousal.css'
+const FirstCardCarousal = ({ data = [] }) => {
   return (
-    <div className="my-10 cardoff-latest-container">
+    <div>
+       <div className="my-10 cardoff-latest-container">
       <div className="biggestdealsdiv my-10">
         <h3 className="biggestdealsheading">Biggest Deals On Top Brands</h3>
       </div>
@@ -38,7 +38,8 @@ const Cardcarousal = ({ data = [] }) => {
         ))}
       </div>
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default Cardcarousal;
+export default FirstCardCarousal;

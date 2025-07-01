@@ -7,7 +7,7 @@ import axios from "axios";
 import BASE_URL from "../Config/config.js";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Testing from "../components/HomeComponents/TestCarousal/testing.jsx";
+import FirstCardCarousal from "../components/HomeComponents/FirstCardCarousal/FirstCardCarousal.jsx";
 import CardData from "../JSONData/carddata.json";
 import CarrousallBannerFilter from "../components/HomeComponents/carouselbannerfilter/CarouselBannerFilter.jsx";
 
@@ -82,7 +82,7 @@ const FilterPage = () => {
     <div>
       <PageLayout>
         <CarrousallBannerFilter data={filteredoffer} />
-        <Testing data={filtered} />
+        <FirstCardCarousal data={filtered} />
         <ShopByCateg />
         <CardOffer data={filteroffers} />
       </PageLayout>
