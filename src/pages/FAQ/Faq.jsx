@@ -1,6 +1,6 @@
 import React from "react";
 import "./faq.css";
-import subscribe from "../../Assets/Image/Subscribe.png";
+import SubscribeImg  from "../../Assets/Image/Subscribe.png";
 import Accordian from "../../Components/FAQAccoridan/Accordian";
 import { Link } from "react-router-dom";
 import PageLayout from "../../layouts/PageLayout";
@@ -50,7 +50,7 @@ const Faq = () => {
                 </div>
                
                 <div className='pic-news'> 
-                <img className="pic-news-image" src={subscribe} alt="Subscribe" />
+                <img className="pic-news-image" src={SubscribeImg} alt="Subscribe" />
               
                 </div>
               </div>
