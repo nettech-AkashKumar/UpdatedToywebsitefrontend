@@ -1,6 +1,6 @@
 import React from 'react'
 import './ElevateSection.css'
-import Firstlady from '../../../assets/Image/firstlady.png'
+import Firstlady from '../../../assets/image/firstlady.png'
 import { Link } from 'react-router'
 const ElevateSection = () => {
   return (
