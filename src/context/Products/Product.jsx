@@ -106,22 +106,15 @@
 // };
 
 // export { ProductProvider, ProductContext, useProductContext };
-
-
-import React from "react"
-import axios from "axios"
-import { createContext, useContext, useReducer, useEffect } from "react"
-
-import reducer from "../Reducer/productReducer.jsx"
+import React, { createContext, useContext, useReducer, useEffect } from "react";
+import axios from "axios";
+import reducer from "../Reducer/productReducer.jsx";
 import BASE_URL from "../../Config/config.js";
 
 const ProductContext = createContext();
 
-const storedProduct = await axios.get(`${BASE_URL}/api/products`);
-console.log("sdeeef", storedProduct);
-
-const intitialState = {
-  isLoading: false,
+const initialState = {
+  isLoading: true,
   isError: false,
   products: [],
   featureProducts: [],
@@ -130,31 +123,102 @@ const intitialState = {
   categoryProduct: {}
 };
 
-const ProductProvider = ({children}) => {
-  const [state, dispatch] = useReducer(reducer, intitialState)
-  console.log("props & state", state)
+const ProductProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-  //second api call for single product
+  const getProducts = async () => {
+    dispatch({ type: "SET_LOADING" });
+    try {
+      const res = await axios.get(`${BASE_URL}/api/products`);
+      const products = res.data;
+      dispatch({ type: "SET_PRODUCTS", payload: products });
+    } catch (error) {
+      dispatch({ type: "SET_ERROR" });
+    }
+  };
+
+  useEffect(() => {
+    getProducts();
+  }, []);
+
   const getSingleProduct = (allproduct, productId) => {
-    console.log("allpd", allproduct)
-    console.log("pid", productId)
-    const singleProduct = allproduct?.find((product) => product?._id?.toString() === productId?.toString());
-    console.log("singlrproduct", singleProduct)
-    return singleProduct;
-  }
+    return allproduct?.find(
+      (product) => product?._id?.toString() === productId?.toString()
+    );
+  };
 
   return (
-    <ProductContext.Provider
-    value={{...state, getSingleProduct}}
-    >
-    {children}
+    <ProductContext.Provider value={{ ...state, getSingleProduct }}>
+      {children}
     </ProductContext.Provider>
-  )
-
+  );
 };
 
 const useProductContext = () => {
-  return useContext(ProductContext)
+  return useContext(ProductContext);
 };
 
-export {ProductProvider, ProductContext, useProductContext}
+export { ProductProvider, ProductContext, useProductContext };
+
+
+// import React from "react"
+// import axios from "axios"
+// import { createContext, useContext, useReducer, useEffect } from "react"
+
+// import reducer from "../Reducer/productReducer.jsx"
+// import BASE_URL from "../../Config/config.js";
+
+// const ProductContext = createContext();
+
+// const storedProduct = await axios.get(`${BASE_URL}/api/products`); 
+
+// console.log("sdeeef", storedProduct);
+
+// const intitialState = {
+//   isLoading: false,
+//   isError: false,
+//   products: [],
+//   featureProducts: [],
+//   isSingleLoading: false,
+//   singleProduct: {},
+//   categoryProduct: {}
+// };
+
+// const ProductProvider = ({children}) => {
+//   const [state, dispatch] = useReducer(reducer, intitialState)
+//   console.log("props & state", state)
+
+//   //second api call for single product
+//   const getSingleProduct = (allproduct, productId) => {
+//     console.log("allpd", allproduct)
+//     console.log("pid", productId)
+//     const singleProduct = allproduct?.find((product) => product?._id?.toString() === productId?.toString());
+//     console.log("singlrproduct", singleProduct)
+//     return singleProduct;
+//   }
+
+//   return (
+//     <ProductContext.Provider
+//     value={{...state, getSingleProduct}}
+//     >
+//     {children}
+//     </ProductContext.Provider>
+//   )
+
+// };
+
+// const useProductContext = () => {
+//   return useContext(ProductContext)
+// };
+
+// export {ProductProvider, ProductContext, useProductContext}
+
+
+
+
+
+
+// sir i think backend and frontend dono run krta hu wait
+
+
+// sir ye bhi shi kaam kr rha h  ab  isme build ban rha h  config walka url add kr fir build bnate h   sir wo already h

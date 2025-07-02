@@ -49,6 +49,22 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
+// ✅ Full list of Popper imports (modifiers, enums, popper-base)
+const popperImports = [
+  '@popperjs/core',
+  '@popperjs/core/lib/enums',
+  '@popperjs/core/lib/popper-base',
+  '@popperjs/core/lib/modifiers/applyStyles',
+  '@popperjs/core/lib/modifiers/arrow',
+  '@popperjs/core/lib/modifiers/computeStyles',
+  '@popperjs/core/lib/modifiers/eventListeners',
+  '@popperjs/core/lib/modifiers/flip',
+  '@popperjs/core/lib/modifiers/hide',
+  '@popperjs/core/lib/modifiers/offset',
+  '@popperjs/core/lib/modifiers/popperOffsets',
+  '@popperjs/core/lib/modifiers/preventOverflow'
+];
+
 export default defineConfig({
   plugins: [tailwindcss(), react()],
   resolve: {
@@ -60,17 +76,16 @@ export default defineConfig({
   optimizeDeps: {
     include: [
       'recharts',
-      '@popperjs/core',
-      '@popperjs/core/lib/modifiers/arrow',
-      '@popperjs/core/lib/modifiers/computeStyles', //  Added this too
+      'prop-types-extra',
+      'prop-types-extra/lib/all',
+      ...popperImports // ✅ include Popper imports
     ],
   },
   build: {
     rollupOptions: {
-      external: [
-        '@popperjs/core/lib/modifiers/arrow',
-        '@popperjs/core/lib/modifiers/computeStyles', // Externalize it too
-      ],
+      external: [...popperImports], // ✅ externalize Popper imports
     },
   },
 })
+
+
